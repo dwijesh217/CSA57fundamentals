@@ -11,3 +11,7 @@
 	}
 	return 0;
 }
+
+output :
+enter the value of n: 5
+1,2,3,4,5,
