@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	float n,cube,square;
+	printf("enter any number: ");
+	scanf("%f",&n);
+	square=n*n;
+	cube=n*n*n;
+	printf("\nsquare of %f = %f",n,square);
+	printf("\ncube of %f = %f",n,cube);
+	return 0;
+}
+
+OUTPUT:
+ enter any number: 9
+
+square of 9.000000 = 81.000000
+cube of 9.000000 = 729.000000
